@@ -1,0 +1,138 @@
+:root {
+    --white: #E8F6EF;
+    --dark: #4C4C6D;
+    --green: #1B9C85;
+  
+    --text:  'Open Sans', sans-serif;
+    --title: 'Montserrat', sans-serif;
+  } 
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--white);
+    font-family: var(--text);
+  }
+  #title{
+    font-family: var(--title);
+    font-size: 3rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  
+  #laborales{
+    margin-top: 2vh;
+    border-top-left-radius: 20px;
+    border: 1px solid var(--dark);
+    background-color: var(--dark);
+   
+  }
+  
+  #pasivos{
+    margin-top: 2vh;
+    border-top-right-radius: 20px;
+    border: 1px solid var(--dark);
+    background-color: var(--dark);
+  }
+  
+  #addBtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 3rem;
+    background-color: var(--green);
+    border-radius: 20px;
+    border: none;
+    color: var(--white);
+    font-size: 30px;
+  
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  #addBtn:hover{
+    background-color: var(--white);
+    color: var(--dark);
+    box-shadow: 0px 1px 300px var(--white);
+  
+  }
+  
+  #calcularBtn{
+    height: 3rem;
+    background-color: var(--dark);
+    border-radius: 20px;
+    border: none;
+    color: var(--white);
+    font-size: 30px;
+    width: 50%;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  #calcularBtn:hover{
+    background-color: var(--green);
+    color: var(--dark);
+    height: 7vh;
+    width: 60%;
+    box-shadow: 0px 1px 300px var(--green);
+    border-radius: 2px;
+  }
+  
+  #deleteBtn{
+    position: absolute;
+    background-color: var(--white);
+    right: 0;
+    top: 0;
+    border-radius: 20px;
+    width: 40px;
+    border: none;
+  }
+  
+  
+  #impuestos{
+    border-top: 1px solid var(--green);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: var(--dark);
+  }
+  
+  #ingresoPasivo{
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    padding-top: 5%;
+    color: var(--green);
+    position: relative;
+  }
+  
+  
+  #dinerillo{
+    background-color: var(--green);
+    color: var(--white);
+  }
+  
+  h3{
+    margin-top: 2vh;
+    color: var(--white);
+  }
+  
+  label{
+    color: var(--green);
+  }
+  
+  input{
+    outline: none;
+    background-color: var(--green);
+    color: var(--white);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
+  
+  
+  
+  
