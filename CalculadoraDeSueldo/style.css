@@ -40,15 +40,15 @@
   }
   
   #addBtn{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 70%;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
     height: 3rem;
     background-color: var(--green);
     border-radius: 20px;
     border: none;
     color: var(--white);
     font-size: 30px;
-  
     transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   
@@ -124,6 +124,15 @@
     outline: none;
     background-color: var(--green);
     color: var(--white);
+  }
+  
+  li{
+    list-style: none;
+    color: #1B9C85;
+    text-align: center;
+    margin-top: 2vh;
+    border: 1px solid #E8F6EF;
+    border-radius: 20px;
   }
   
   code {
